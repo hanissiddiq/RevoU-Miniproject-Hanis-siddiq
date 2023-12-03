@@ -24,6 +24,11 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.input-keliling-section {
+  display: flex;
+  flex-direction: column;
+}
 label {
   margin-top: 10px;
   font-weight: bold;
@@ -58,4 +63,16 @@ button {
 
 button:hover {
   background-color: #1d6849;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+}
+
+@media (min-width: 390px), (max-width: 800px) {
+  img {
+    width: 400px;
+    height: 300px;
+  }
 }
