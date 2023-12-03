@@ -4,9 +4,10 @@ function luas() {
   var rumusluas = (a * t) / 2;
   console.log(rumusluas);
 
-  const para = document.createElement("p");
-  para.innerHTML = "Luas nya adalah ".rumusluas;
-  document.getElementById("hasilLuas").appendChild(para);
+  document.getElementById("hasilLuas").innerHTML = `<ul>
+  <li> Luas Segitiga = a * t / 2</li>
+  <li> Hasil = ${rumusluas} </li>
+</ul>`;
 }
 
 function keliling() {
@@ -18,7 +19,6 @@ function keliling() {
 
   document.getElementById("hasilKeliling").innerHTML = `<ul>
   <li> Keliling = S + S + S</li>
-  <li>Vue</li>
-  <li> Hasil = </li>
+  <li> Hasil = ${rumuskeliling} </li>
 </ul>`;
 }
