@@ -14,6 +14,7 @@ body {
 }
 
 .navigation {
+  margin-top: 10px;
 }
 
 .navigation > a {
@@ -44,6 +45,19 @@ label {
 
 .katik-input:focus {
   border: 1px solid rgb(199, 69, 18);
+}
+
+.btnNav {
+  background-color: #2ea774;
+  padding: 10px 20px;
+  color: aliceblue;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btnNav:hover {
+  background-color: #1d6849;
 }
 
 .button {
